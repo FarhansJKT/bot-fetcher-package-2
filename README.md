@@ -17,3 +17,11 @@ fetchJson(url, options)
 getBuffer(url, options)
 // BUG ATAU ENGGAKNYA LAPOR AE
 ```
+
+# EXAMPLE CASE BOT
+```javascript
+case 'tiny':
+var { fetchJson } = require('bot-fetch2');
+query = body.slice(6)
+anu = fetchJson('
+```
