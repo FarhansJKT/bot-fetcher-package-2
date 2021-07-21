@@ -25,5 +25,8 @@ var { fetchJson } = require('bot-fetch2');
 query = body.slice(6)
 fetchJson('https://docs-api-fhans.herokuapp.com/api/short/tiny?apikey=FhansGanss&url=${query}')
 .then(anu => {
-    q = 'link asli : ${query}\nlink short : ${anu.
+    q = 'link asli : ${query}\nlink short : ${anu.result.link}'
+    client.sendMessage(from, q, text, {quoted: mek})
+})
+break
 ```
