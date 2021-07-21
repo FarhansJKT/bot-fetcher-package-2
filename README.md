@@ -1,2 +1,7 @@
-# bot-fetcher-package-2
-Package npm bot fetcher by Farhan js
+# INSTALL 
+```bash
+> npm i bot-fetch2
+```
+
+# CONTRIBUTOR
+you can download *.zip*
