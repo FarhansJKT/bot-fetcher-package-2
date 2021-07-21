@@ -4,4 +4,16 @@
 ```
 
 # CONTRIBUTOR
-you can download *.zip*
+you can download *.zip* 
+
+# EXAMPLE
+```nodejs
+var { fetchJson, getBuffer } = require('bot-fetch2');
+
+fetchJson(url, options)
+.then(anu => console.log(anu))
+// FIX BUG FETCHER JSON
+
+getBuffer(url, options)
+// BUG ATAU ENGGAKNYA LAPOR AE
+```
