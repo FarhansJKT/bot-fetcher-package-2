@@ -23,5 +23,7 @@ getBuffer(url, options)
 case 'tiny':
 var { fetchJson } = require('bot-fetch2');
 query = body.slice(6)
-anu = fetchJson('
+fetchJson('https://docs-api-fhans.herokuapp.com/api/short/tiny?apikey=FhansGanss&url=${query}')
+.then(anu => {
+    q = 'link asli : ${query}\nlink short : ${anu.
 ```
