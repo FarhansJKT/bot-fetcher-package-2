@@ -7,7 +7,7 @@
 you can download *.zip* 
 
 # EXAMPLE
-```nodejs
+```node-js
 var { fetchJson, getBuffer } = require('bot-fetch2');
 
 fetchJson(url, options)
