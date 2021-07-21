@@ -1,0 +1,32 @@
+{
+  "name": "fetch-id",
+  "version": "3.0.3",
+  "description": "only bot fetcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FHTEAMID/bot-fetch.git"
+  },
+  "keywords": [
+    "nodejs",
+    "fetch",
+    "node-fetch",
+    "fetcher",
+    "npm"
+  ],
+  "author": "FARHAN - FHTEAM // hanscker3@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/FHTEAMID/bot-fetch/issues"
+  },
+  "homepage": "https://github.com/FHTEAMID/bot-fetch#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
